@@ -2,9 +2,9 @@ input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
     randomNumber = randint(0, 4)
     if (randomNumber == 4) {
-        basic.showString("DEFINATELY")
+        basic.showString("ASK AGAIN")
     } else if (randomNumber == 3) {
-        basic.showString("TRY AGAIN")
+        basic.showString("PROBABLY")
     } else if (randomNumber == 2) {
         basic.showString("YES")
     } else if (randomNumber == 1) {
